@@ -1,7 +1,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-export const experimental_ppr = true; // Partial Prerendering for UI performance
+export const experimental_ppr = true; // Partial Prerendering for UI testing... Remove
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
